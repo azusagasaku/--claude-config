@@ -1,0 +1,49 @@
+# === 密钥与私密配置（绝对不能入库）===
+settings.json
+settings.local.json
+settings.json.bak
+config.json
+*.env
+*.pem
+*.key
+*-key.json
+credentials*
+token*
+
+# === ECC 插件运行时（从 GitHub 安装，可恢复）===
+/ecc/
+
+# === 插件（从 marketplace 安装，可恢复）===
+plugins/
+
+# === 项目记忆（自动生成）===
+projects/
+
+# === 运行时与缓存 ===
+cache/
+sessions/
+session-data/
+session-env/
+shell-snapshots/
+paste-cache/
+file-history/
+telemetry/
+metrics/
+tasks/
+backups/
+daemon/
+plans/
+ide/
+
+# === 日志 ===
+*.log
+history.jsonl
+
+# === 系统 ===
+.last-cleanup
+.lock
+*.lock
+
+# === OS ===
+.DS_Store
+Thumbs.db
