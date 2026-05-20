@@ -6,7 +6,7 @@ CONFIG_DIR="$HOME/.claude"
 cd "$CONFIG_DIR"
 
 # 无变更则跳过
-if git diff --quiet && git diff --cached --quiet && git diff --quiet --untracked-files=no; then
+if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
     exit 0
 fi
 
