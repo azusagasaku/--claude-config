@@ -1,0 +1,11 @@
+{
+  "active": true,
+  "last_updated": "2026-05-22T18:11:31.145Z",
+  "tasks": [
+    {
+      "id": "1",
+      "description": "设置任务监控系统 — 创建 task-guard.sh 和配置",
+      "status": "done"
+    }
+  ]
+}
