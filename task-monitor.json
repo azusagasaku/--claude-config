@@ -1,10 +1,15 @@
 {
   "active": true,
-  "last_updated": "2026-05-22T18:11:31.145Z",
+  "last_updated": "2026-05-22T18:26:41.729Z",
   "tasks": [
     {
       "id": "1",
       "description": "设置任务监控系统 — 创建 task-guard.sh 和配置",
+      "status": "done"
+    },
+    {
+      "id": "2",
+      "description": "D:/电子技术 资料学习与记录 — 构建资料索引 + 提取模电/数电知识精要 + 同步Obsidian Vault",
       "status": "done"
     }
   ]

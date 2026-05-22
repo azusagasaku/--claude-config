@@ -16,7 +16,7 @@ if [ ! -f "$IMAGE_PATH" ]; then
 fi
 
 # --- Find a working Python (once, for all later uses) ---
-_PY="$(command -v python3 2>/dev/null || command -v python 2>/dev/null || command -v py 2>/dev/null || echo '')"
+_PY="$(command -v python3.12 2>/dev/null || command -v python3 2>/dev/null || command -v python 2>/dev/null || command -v py 2>/dev/null || echo '')"
 
 # --- Detect media type from extension ---
 EXT="${IMAGE_PATH##*.}"
