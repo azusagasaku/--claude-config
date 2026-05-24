@@ -1,6 +1,6 @@
 {
   "active": true,
-  "last_updated": "2026-05-22T18:26:41.729Z",
+  "last_updated": "2026-05-24T15:45:05.516Z",
   "tasks": [
     {
       "id": "1",
@@ -11,6 +11,13 @@
       "id": "2",
       "description": "D:/电子技术 资料学习与记录 — 构建资料索引 + 提取模电/数电知识精要 + 同步Obsidian Vault",
       "status": "done"
+    },
+    {
+      "id": "c-clean",
+      "description": "清理C盘安全缓存项~23.8GB",
+      "status": "done",
+      "created_at": "2026-05-24T15:42:17.964Z",
+      "completed_at": "2026-05-24T15:45:05.516Z"
     }
   ]
 }
