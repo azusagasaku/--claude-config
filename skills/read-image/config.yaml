@@ -6,4 +6,5 @@ max_tokens: 4096
 
 # 鉴权方式：@TOKEN@ 会被替换为 auth_token 的值
 auth_header: "Authorization: Bearer @TOKEN@"
+# 请替换为你的 DashScope API Key，格式如 sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 auth_token: "YOUR_DASHSCOPE_API_KEY"

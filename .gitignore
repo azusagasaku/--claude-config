@@ -1,4 +1,6 @@
 # === 密钥与私密配置（绝对不能入库）===
+skills/read-image/config.yaml
+read-image/config.yaml
 settings.json
 settings.local.json
 settings.json.bak
